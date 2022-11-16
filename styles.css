@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+ :root{--primary-color:#fae8ff;}
+
+ body {
+    font-family: 'Lato', sans-serif;
+ }
+
+
+ .list{
+ color: aquamarine;
+ list-style: none;
+ }
+
+ .inline-list{
+    display: inline;
+    
+ }  
+ .link-style{
+    text-decoration: none;
+    background-color:#fdf4ff;
+    color:red;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+ }
+
+ .navigation{
+    background-color:#e879f9;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    text-align: center;
+    margin:auto;
+ }
+
+
+ .nav-div{
+    color:var(--primary-color);
+    font-weight: bolder;
+    text-align: left;
+    font-size: large;
+ }
+
+
+ .header-top{
+    padding: 1rem;
+ }
+
+
+ .header-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+ }
+
+ 
+ .header-high{
+    text-align: center;
+    color: #f0abfc;
+    font-size:xx-large;
+ }
+
+
+ .section-topic{
+    background-color: var(--primary-color);
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+ }
+
+
+ .section-div{
+    font-weight: bolder;
+    font-size: larger;
+ }
+
+ .section-head{
+    background-color: #fdf4ff;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    margin:auto;
+ }
+ 
+ .link{
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: red;
+    font-weight: bold;
+    margin:auto;
+ }
+
+
+ .footer{
+   text-align: center;
+   background-color: #e879f9;
+   padding: 1rem 1rem;
+   border-bottom-left-radius: 1rem;
+   margin: auto;
+ }
+
+
+ .footer-head{
+   font-size: larger;
+   padding: 1rem;
+ }
+ 
